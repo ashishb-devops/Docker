@@ -1,8 +1,60 @@
-# A simple MERN stack application 
+# A MERN stack application 
+
+This directory contains a Docker Compose configuration for a full‑stack MERN (MongoDB, Express, React, Node.js) application.
+
+# 📁 Folder Structure
+
+```text
+mern/
+├── backend/        # Express + Node API server
+├── frontend/       # React frontend app
+└── docker-compose.yml
+```
+
+# 🚀 Getting Started
+
+# Prerequisites
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+
+
+
+
+# 🔧 Run the application
+
+From the `mern/` folder, run:
+
+`docker-compose up --build`
+
+- ⭐ Builds and starts 3 containers: frontend, backend, MongoDB.
+- 🌐 Frontend: http://localhost:3000 (or port configured)
+- 🛠 Backend API: http://localhost:5050 (or configured port)
+- 🗄 MongoDB: accessible at mongodb://mongo:27017
+  
+
+
+
+# 🧱 Docker Compose Overview
+
+The docker-compose.yml defines:
+- frontend: builds the React client container
+- backend: builds the Express.js API server
+- mongo: runs a MongoDB container using the official image
+
+All services are networked together for seamless communication.
+
+
+
+
+
+
+# Instructions
 
 ### Create a network for the docker containers
 
-`docker network create demo`
+`docker network create mern`
 
 ### Build the client 
 
@@ -34,7 +86,7 @@ docker build -t mern-backend .
 
 `docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
 
-## Using Docker Compose
+### Using Docker Compose
 
 `docker compose up -d`
 
