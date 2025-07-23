@@ -2,7 +2,7 @@
 
 This directory contains a Docker Compose configuration for a full‑stack MERN (MongoDB, Express, React, Node.js) application.
 
-# 📁 Folder Structure
+## 📁 Folder Structure
 
 ```text
 mern/
@@ -11,9 +11,9 @@ mern/
 └── docker-compose.yml
 ```
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
-# Prerequisites
+## Prerequisites
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
@@ -22,7 +22,7 @@ mern/
 
 
 
-# 🔧 Run the application
+## 🔧 Run the application
 
 From the `mern/` folder, run:
 
@@ -37,7 +37,7 @@ From the `mern/` folder, run:
 &nbsp;
 
 
-# 🧱 Docker Compose Overview
+## 🧱 Docker Compose Overview
 
 The docker-compose.yml defines:
 - frontend: builds the React client container
@@ -51,7 +51,7 @@ All services are networked together for seamless communication.
 &nbsp;
 
 
-# Instructions
+## Instructions
 
 ### Create a network for the docker containers
 
