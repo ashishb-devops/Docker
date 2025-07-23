@@ -1,1 +1,1 @@
-# Created this repo to host projects I have done related to docker
+Created this Repo to organize and manage the projects and content related to docker
