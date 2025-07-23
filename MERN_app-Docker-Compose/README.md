@@ -1,4 +1,4 @@
-# A MERN stack application 
+## A MERN stack application 
 
 This directory contains a Docker Compose configuration for a full‑stack MERN (MongoDB, Express, React, Node.js) application.
 
