@@ -32,8 +32,9 @@ From the `mern/` folder, run:
 - 🌐 Frontend: http://localhost:3000 (or port configured)
 - 🛠 Backend API: http://localhost:5050 (or configured port)
 - 🗄 MongoDB: accessible at mongodb://mongo:27017
-  
 
+  
+&nbsp;
 
 
 # 🧱 Docker Compose Overview
@@ -47,7 +48,7 @@ All services are networked together for seamless communication.
 
 
 
-
+&nbsp;
 
 
 # Instructions
