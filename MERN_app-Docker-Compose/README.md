@@ -51,7 +51,7 @@ All services are networked together for seamless communication.
 &nbsp;
 
 
-## Instructions
+## Instructions if we had to containerize each service separately 
 
 ### Create a network for the docker containers
 
