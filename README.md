@@ -1,1 +1,1 @@
-# Created this repo to host projects i have done related to docker
+# Created this repo to host projects I have done related to docker
